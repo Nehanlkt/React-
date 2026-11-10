@@ -1,16 +1,8 @@
+import React from 'react'
 
-import './App.css'
-import Card from './components/card'
-import Navbar from './components/navbar'
-
-function App() {
+const App = () => {
   return (
-    <>
-    <Navbar/>
-      <Card />
-       <Card />
-      <Card />
-    </>
+    <div>App</div>
   )
 }
 
